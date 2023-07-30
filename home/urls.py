@@ -4,6 +4,7 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
+
 urlpatterns = [
     path('', views.index),
     path('login', views.log_in),
@@ -15,8 +16,6 @@ urlpatterns = [
     path('view_reply', views.view_reply),
     path('registration', views.registration),
 
-
-
-
-
 ]
+
+
